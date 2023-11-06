@@ -1,0 +1,714 @@
+:root{
+    --font-name: 'Open Sans', sans-serif;
+}
+
+.container-1 .col-2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 3rem;
+}
+.sec-1{
+    background-color: rgb(249, 237, 249);
+}
+.container-1 .col-2 h1{
+   font-family: 'Bebas Neue', sans-serif;
+   color:rgb(224, 110, 224);
+   margin-top: 1rem;
+}
+
+.container-1 .col-2 h1:hover{
+    color: blueviolet;
+ }
+
+.sec-1 .container-1 .row{
+    display: flex;
+    gap: .5rem;
+}
+
+.sec-1 .container-1 .row .col-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-1 .container-1 .row a {
+   text-decoration: none;
+   color:   blueviolet;
+   font-family:var(--font-name);
+   transition: .3s all;
+}
+
+.sec-1 .container-1 .row a::after{
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(153, 11, 139);
+  transition: width .3;
+}
+
+
+.sec-1 .container-1 .row a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+/* ----------------------------------------------Css For Section-2 starts here-------------------------------*/
+
+.sec-2 .row{
+    height: 70vh;
+}
+
+.sec-2{
+    background-color: rgb(249, 237, 249);
+    height: 100vh;
+    /* background: url(./assets/night-city.jpg);
+    background-size: cover; */
+}
+.sec-2 .container .image{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    /* float: left; */
+}
+
+.sec-2 .container .row .col-6 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    align-self:flex-start;
+    /* margin-top: 7rem; */
+
+}
+
+.sec-2 .container .row .about-me{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.sec-2 .container .row .button{
+   display: flex;
+   justify-content: flex-start;
+   gap: 2.3rem;
+}
+
+.sec-2 .container .row .button .btn-1{
+    background-color: rgb(224, 110, 224);
+    color: white;
+    font: var(--font-name);
+}
+
+.sec-2 .container .row .button .btn-2{
+    /* background-color: rgb(224, 110, 224); */
+    color: rgb(224, 110, 224);
+    border-color: rgb(224, 110, 224);
+    font: var(--font-name);
+}
+
+.sec-2 .container .row .button .btn-2:hover{
+    /* background-color: rgb(224, 110, 224); */
+    background-color: rgb(224, 110, 224);
+    color: white;
+}
+
+.sec-2 .container .row .col-6 h1{
+   font-size: 42px;
+}
+
+.sec-2 .container .row{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+/* ----------------------------------------------Css For Section-3 starts here-------------------------------*/
+
+
+.sec-3{
+    height: 80vh;
+    /* background-color: aqua; */
+    display: flex;
+    /* background-color: rgb(22, 218, 218); */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-3 .container .row .image img{
+    height: 100%;
+    width: 100%
+}
+
+.sec-3 .container .row .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-3 .container .row .about-me .button button{
+    border-color: rgb(224, 110, 224);
+    color: rgb(224, 110, 224);
+    font-size: 12pt;
+}
+
+.sec-3 .container .row .about-me .button{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-3 .container .row .about-me .button button:hover{
+    background-color: rgb(224, 110, 224);
+    color: aliceblue;
+}
+
+.sec-3 .container .row .about-me h4{
+    letter-spacing: 3px; 
+}
+
+
+
+
+/* ----------------------------------------------Css For Section-4 starts here-------------------------------*/
+
+.sec-4{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 237, 249);
+}
+
+.sec-4 .container .row-1{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1rem;
+    justify-content: center;
+    /* margin-top: 10rem; */
+}
+
+.sec-4 .container .row-1 .what-i-do{
+    letter-spacing: 3px;
+}
+
+.sec-4 .container .row-1 .col-6 p, .sec-4 .container .row-1 .col-6 h1{
+    text-align: center;
+}
+
+
+
+.sec-4 .container .row-2 img{
+   height: 80px;
+   width: 80px;
+   margin-bottom: 2rem;
+}
+
+.sec-4 .container .row-2{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-4 .container .row-2 .col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-4 .container .row-2 .col-3 p{
+    font-size: 20pt; 
+    font-weight: 500;
+}
+
+/* ----------------------------------------------Css For Section-5 starts here-------------------------------*/
+
+.sec-5{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 237, 249);;
+}
+
+.sec-5 .container .row-1{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1rem;
+    justify-content: center;
+    /* margin-top: 10rem; */
+}
+
+.sec-5 .container .row-1 .what-i-did{
+    letter-spacing: 3px;
+    color: rgb(249, 237, 249);
+}
+
+.sec-5 .container .row-1 .col-6 p, .sec-5 .container .row-1 .col-6 h1{
+    text-align: center;
+    color: rgb(249, 237, 249);
+}
+
+
+.sec-5 .container .row-2 .image-content{
+   height:100%;
+   width: 350px;
+}
+.sec-5 .container .row-2 img{
+   height: 300px;
+   width: 350px;
+   margin-bottom: 2rem;
+   border-radius: 5%;
+}
+
+.sec-5 .container .row-2 .image-content .overlay{
+   position: absolute;
+   height: 300px;
+   width:350px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(237, 84, 232, 0.4);
+   border-radius: 5%;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+ }
+
+ .sec-5 .container .row-2 .image-content .overlay p{
+    color: antiquewhite;
+  }
+
+  .sec-5 .container .row-2 .image-content:hover .overlay{
+    opacity: 1;
+  }
+
+
+.sec-5 .container .row-2{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-5 .container .row-2 .col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-5 .container .row-2 .col-3 p{
+    font-size: 20pt; 
+}
+
+/* ----------------------------------------------Css For Section-6 starts here-------------------------------*/
+
+.sec-6{
+    height: 140vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 237, 249);
+}
+
+.sec-6 .row{
+    /* background-color:aliceblue; */
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+}
+
+.sec-6 .row .col-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+
+.sec-6 .row .col-4 .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3rem;
+    margin-top: 2rem;
+}
+
+.sec-6 .row .col-4 .list a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: rgb(224, 110, 224);;
+}
+
+.sec-6 .row .col-4 .contact{
+    font-size: 35pt;
+    font-weight:700;
+    margin-top: -120px;
+    margin-bottom: 1rem;
+}
+
+.sec-6 .row .col-4 .contact-icons{
+    margin-top: 2rem;
+}
+
+
+
+.sec-6 .row .col-4 .contact-icons a i{
+    height: 45px;
+    width: 45px;
+    background-color:rgb(224, 110, 224); 
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+
+.sec-6 .row .col-4 .contact-icons a i:hover{
+    background: white;
+    color: rgb(224, 110, 224); 
+}
+
+.sec-6 .row .col-4 .project{
+    font-size: 17pt;
+    font-weight: 700;
+}
+
+.sec-6 .row .col-4 .contact span{
+    color: rgb(224, 110, 224);
+}
+
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(243, 126, 243);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-form form input:hover, form textarea:hover{
+   background-color: rgb(242, 203, 242);
+}
+
+.contact-form form input::placeholder, form textarea::placeholder{
+    color:aliceblue;
+    font-weight: 400;
+ }
+
+.contact-form .submit{
+   width: 33%;
+   background-color:  rgb(224, 110, 224);
+   color: aliceblue;
+   font-weight: 500;
+}
+
+.contact-form .submit:hover{
+   background-color:  rgb(249, 237, 249);;
+   color: #e673e8;
+ }
+
+.sec-6 .row .contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3rem;
+}
+
+
+/* ----------------------------------------------Css For Footer starts here-------------------------------*/
+/* footer .col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .col-2 .links a{
+   color: aliceblue;
+   text-decoration: none;
+}
+
+footer .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color:aliceblue;
+}
+
+
+footer p {
+    color: aliceblue;
+}
+
+footer #foot-sec-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+footer h4{
+    color:#fbd7e1;
+}
+footer #foot-sec-1 .para{
+    width: 18rem;
+}
+
+footer #foot-sec-4 img{
+    height: 20px;
+    width: 25px;
+}
+
+
+footer #foot-sec-4 .links{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+
+footer #foot-sec-4 .links a{
+    display: flex;
+    gap: 1rem;
+    color: aliceblue;
+}
+
+
+footer #foot-sec-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+footer .row-2 .terms{
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer .row-2 .terms a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer{
+    height: 50vh;
+}
+
+footer .terms{
+    display: flex;
+    gap: 1rem;
+}
+
+footer .container{
+    height: 45vh;
+}
+
+footer{
+    background-color: rgb(224, 110, 224);;
+    margin-top: -50px;
+}
+
+footer .row-1{
+    margin-top: 3rem;
+} */
+
+.gradient-background{
+    background: linear-gradient(300deg,#81e0ff,#ff74f1,#ffffa0);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    background-color: #ec1e64;
+}
+
+@keyframes gradient-animation{
+
+        0%{
+            background-position: 0% 50%;
+        }
+
+        50%{
+            background-position: 100% 50%;
+        }
+
+        100%{
+            background-position: 0% 50%;
+        }
+}
+
+/* ----------------------------------------------Css For Mobile starts here-------------------------------*/
+
+@media (max-width:990px) {
+
+        .sec-1 .row .logo{
+            width: 100%;
+            justify-content: center;
+            margin: 1.5rem;
+        }
+
+        .sec-1 .row .col-1{
+            margin-bottom: 1rem;
+        }
+        .sec-1 .row .logo h1{
+            font-size: 60pt;
+        }
+
+        .sec-1 .row .col-4{
+            width: 0%;
+            display: none;
+        }
+
+        .sec-1 .row{
+           display: flex;
+           justify-content: space-around;
+           /* flex-direction: column; */
+        }
+
+/*-------------------------------------- Css for section-2 starts here -------------------*/       
+
+        .sec-2{
+            height:120vh;
+        }
+        .sec-2 .row .about-me, .sec-2 .row .image , .col-2{
+            width: 100%;
+        }
+
+        .sec-2 .container .row .col-6 img{
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            align-self:flex-start;
+            margin: 0;
+            /* margin-top: 7rem; */
+        }
+
+        .sec-2 .container .row .image{
+            /* background-color: aqua; */
+            height: 290px;
+            margin-top: -5rem;
+        }
+
+      .sec-2 .row{
+        height: 130vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sec-2 .container .row .about-me h4 , 
+      .sec-2 .container .row .about-me p,
+      .sec-2 .container .row .about-me h1{
+         text-align: center; 
+      }
+
+      .sec-2 .container .row .button{
+        justify-content: center;
+     }
+
+
+/*-------------------------------------- Css for section-3 starts here -------------------*/ 
+
+.sec-3{
+    height: 150vh;
+}
+
+.sec-3 .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec-3 .container .row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 140vh;
+}
+
+.sec-3 .container .row-1 .about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+.sec-3 .container .row-1 .about-me p{
+    text-align: center;
+}
+
+.sec-3 .container .row-1 .image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sec-3 .container .row-1 .col-2{
+    display: none;
+}
+
+/*-------------------------------------- Css for section-4 starts here -------------------*/  
+ 
+.sec-4{
+height: 220vh;
+}
+.sec-4 .container .row-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    
+
+    .sec-4 .container .row-2 .col-3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    /*-------------------------------------- Css for section-5 starts here -------------------*/  
+
+    .sec-5{
+        height: 380vh;
+    }
+
+    .sec-5 .container .row-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+  /*-------------------------------------- Css for section-6 starts here -------------------*/  
+    
+  .sec-6{
+    height: 180vh;
+  }
+
+  .sec-6 .container .row{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+  }
+
+  .sec-6 .container .row .col-4{
+    width: 100%;
+  }
+
+}
